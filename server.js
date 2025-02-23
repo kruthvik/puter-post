@@ -1,6 +1,6 @@
 const express = require('express');
 
-export const app = express();
+const app = express();
 
 app.engine('html', require("ejs").renderFile)
 
